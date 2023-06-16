@@ -1,0 +1,10 @@
+#include <stdio.o>
+/**
+* main - A script that runs through the preprocessor
+*Return: 0 (Success)
+*/
+int main(void)
+{
+printf("$CFILE/n");
+return (0);
+}
