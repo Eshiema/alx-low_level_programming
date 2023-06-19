@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * Return: Always 0 (Success)
@@ -7,7 +6,6 @@
 int main(void)
 {
 	char c;
-	
 	char d;
 
 	c = 'a';
@@ -19,7 +17,7 @@ int main(void)
 		}
 	while
 		(d <= 'z') {
-			putchar(d);
+			putchar (d);
 			d++;
 		}
 	putchar('\n');
