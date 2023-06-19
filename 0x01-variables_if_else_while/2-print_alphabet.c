@@ -9,8 +9,9 @@ int main(void)
 	m = 'n';
 	while
 		(m <= 'z') {
-			putchar(c);
+			putchar(m);
 			c++;
 		}
 	putchar("\n");
 	return (0);
+}
