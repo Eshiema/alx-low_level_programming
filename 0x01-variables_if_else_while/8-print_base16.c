@@ -17,7 +17,7 @@ c++;
 while
 (b <= 'f') {
 putchar(b);
-b++;		
+b++;
 }
 putchar('\n');
 return (0);
