@@ -21,7 +21,7 @@ void rev_string(char *n)
 	for (m = 0; m < i; m++, i--)
 	{
 		temp = *(n + m);
-		*(n + j) = *(n + i);
+		*(n + m) = *(n + i);
 		*(n + i) = temp;
 	}
 }
